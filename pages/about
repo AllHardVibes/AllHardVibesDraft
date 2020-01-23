@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../img/favicon.png">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google" content="notranslate">
+		<title>About | HV</title>
+    </head>
+
+    <body>
+        <header class="shared">
+            <h1 class="shared-title">Hard Vibes (hv)</h1>
+                <ul>
+                    <li><a class="about" href="../pages/about">ABOUT</a></li>
+                    <li><a class="uhm" href="../pages/uhm">UHM</a></li>
+                    <li><a class="home" href="../index">HOME</a></li>
+                </ul>
+        </header>
+        <div class="about-me">
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <h3 class="uhm-h3-2">I'm just a YouTuber who uploads hard music</h3>
+        </div>
+        
+    </body>
+</html>

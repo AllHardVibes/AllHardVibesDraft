@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../img/favicon.png">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google" content="notranslate">
+		<title>Unreleased Hard Music | HV</title>
+    </head>
+
+    <body>
+        <header class="shared">
+            <h1 class="shared-title">Hard Vibes (hv)</h1>
+                <ul>
+                    <li><a class="about" href="../pages/about">ABOUT</a></li>
+                    <li><a class="uhm" href="../pages/uhm">UHM</a></li>
+                    <li><a class="home" href="../index">HOME</a></li>
+                </ul>
+        </header>
+
+        <h1 class="uhm-h1">What Is UHM?</h1>
+        <h3 class="uhm-h3">UHM, short for Unreleased Hard Music is basically free fucking unreleased hard music that you can download here or on my discord (more mainly here)</h3>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <img oncontextmenu="window.alert('All Rights Reserved &copy;'); return false;" class="uhm-img" src="../img/uhm.png" title="Protected">
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div class="btn-opt">
+            <a class="uhm-btn" href="../pages/music">See Music</a>
+        </div>
+    
+    </body>
+</html>

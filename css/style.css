@@ -1,0 +1,465 @@
+@font-face {
+    font-family: 'calibreBold';
+    src: url(https://db.onlinewebfonts.com/t/54ad1a311e37ed132bf54f7dbcc1d7a1.woff);
+}
+
+@font-face {
+    font-family: 'calibreRegular';
+    src: url(https://db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.woff)
+}
+
+@font-face
+{
+    font-family: 'calibreLight';
+    src: url(https://db.onlinewebfonts.com/t/977c0265c928af7b940ae8e9598b4079.woff)
+}
+
+@keyframes fadeIn
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut
+{
+    100%
+    {
+        opacity: 1;
+    }
+
+    0%
+    {
+        opacity: 0;
+    }
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+}
+
+.shared-title
+{
+    font-family: calibreBold;
+    font-size: 55px;
+    background-color: white;
+}
+
+.yt
+{
+    margin: 35px;
+    font-family: calibreRegular;
+    font-size: 150%;
+    color: cyan;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+.yt:hover
+{
+    color: lime;
+}
+
+.soundcloud
+{
+    margin: 35px;
+    font-family: calibreRegular;
+    font-size: 150%;
+    color: cyan;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+.soundcloud:hover
+{
+    color: lime;
+}
+
+.twitter
+{
+    margin: 35px;
+    font-family: calibreRegular;
+    font-size: 150%;
+    color: cyan;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+.twitter:hover
+{
+    color: lime;
+}
+
+.discord
+{
+    margin: 35px;
+    font-family: calibreRegular;
+    font-size: 150%;
+    color: cyan;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+.discord:hover
+{
+    color: lime;
+}
+
+.reddit
+{
+    margin: 35px;
+    font-family: calibreRegular;
+    font-size: 150%;
+    color: cyan;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+.reddit:hover
+{
+    color: lime;
+}
+
+.social
+{
+    position: sticky;
+    top: 50%;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title
+{
+    background-color: white;
+}
+
+.shared
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.footer
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+br
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: fuchsia;
+}
+
+li
+{
+    float: right;
+    background-color: fuchsia;
+}
+
+li a
+{
+    font-family: calibreBold;
+    font-size: larger;
+    display: block;
+    background-color: fuchsia;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: black;
+}
+
+.uhm-h1
+{
+    font-family: calibreBold;
+    font-size: 35;
+    text-align: center;
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uhm-h3
+{
+    font-family: calibreRegular;
+    padding: 10px 16px;
+    font-size: large;
+    text-align: center;
+    color: black;
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uhm-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: fuchsia;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-zoom: none;
+}
+
+.uhm-btn
+{
+    font-family: calibreBold;
+    font-size: larger;
+    display: inline;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-opt
+{
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uhm-h3-2
+{
+    font-family: calibreBold;
+    font-size: x-large;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+audio
+{
+    background-color: white;
+    width: 100%;
+    outline: none;
+    border-radius: 0px;
+    -webkit-animation: fadeIn 0s;
+    animation: fadeIn 0s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.showArtist
+{
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button
+{
+    font-family: calibreBold;
+    font-size: x-large;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-align: left;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+#marauda
+{
+    text-align: left;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.info
+{
+    font-family: calibreRegular;
+    text-align: left;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.yookie
+{
+    position: absolute;
+    right: 30%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.demand 
+{
+    display: inline;
+    color: red;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.license
+{
+    font-size: large;
+    font-family: calibreLight;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.policy
+{
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.policy-heading
+{
+    font-size: x-large;
+    font-family: calibreLight;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.policy-title
+{
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.about-me
+{
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

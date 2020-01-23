@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../img/favicon.png">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google" content="notranslate">
+		<title>Free Shit | HV</title>
+    </head>
+
+    <body>
+        <header class="shared">
+            <h1 class="shared-title">Hard Vibes (hv)</h1>
+                <ul>
+                    <li><a class="about" href="../pages/about">ABOUT</a></li>
+                    <li><a class="uhm" href="../pages/uhm">UHM</a></li>
+                    <li><a class="home" href="../index">HOME</a></li>
+                </ul>
+        </header>
+
+        <div class="showArtist">
+            <button onclick="showArtist()">SHOW / HIDE ID's</button>
+        </div>
+
+            <div style="display: block;" id="marauda">
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - ID (FUNKY)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/FUNKY.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - ID (v1)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/MARAUDA - ID.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - ID (v2)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/MARAUDA - ID (1).mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - ID (v3)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/MARAUDA - ID (2).mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - BLUNDER 2.0</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/Marauda - Blunder (2nd drop VIP).mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - HARAKIRI</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/MOOG (MARAUDA) - HARAKIRI.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRAMPA & MARAUDA - ID (CROOKED)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/TRAMPA & MARAUDA - ID (Crooked).mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MARAUDA - ID (THE PIT EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/Lil Jon & Skellism - The Pit (MARAUDA Remix).mp3" type="audio/mp3">
+                </audio>
+
+                <!--Yookie-->
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (GO)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/GO.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (WMM)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/WMM.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (THEME EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/THEME EDIT.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (PARTY ROCK)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/PARTY ROCK.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (BABATUNDE EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/BABATUNDE EDIT.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (HIGHER GROUND EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/HIGHER GROUND.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (6AM EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/6AM.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (BUBBLE BASS)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/YOOKIE - ID (Bubble Bass).mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (ROCKET FUEL EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/bocket_buel_YOOKiE_Edit.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (GRIME SHIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/YOOKiE.wav" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YOOKiE - ID (LETS GO)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/YOOKiE2.wav" type="audio/mp3">
+                </audio>
+
+                <!--Gravedgr-->
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GRAVEDGR - ID (DRUGS EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/drugs.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GRAVEDGR - ID (v1)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/id4.mp3" type="audio/mp3">
+                </audio>
+
+                <div>&nbsp;</div>
+                <h3 class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GRAVEDGR - ID (FUCK ALIENS EDIT)</h3>
+                <div>&nbsp;</div>
+                <audio class="player" controls>
+                    <source src="../audio/fuck_aliens_gravedgr_edit.wav" type="audio/mp3">
+                </audio>
+            </div>
+        
+        <div>&nbsp;</div>
+        
+            <div class="policy-title">
+                <h3 class="policy-heading">Copyright Stuff</h3>
+            </div>
+
+        <div>&nbsp;</div>
+
+        <div class="policy">
+            <strong class="license">If you're looking to report me for "stealing music / content", please don't, most of these tracks aren't even released yet (asp; you can't report me for "stealing" something that doesn't exist yet) ALSO I don't intend to steal content, that's not my goal with this, + keep in mind that this isn't YouTube / Soundcloud's services.<br>If you have read all this & still want to report me like the <p class="demand">little shit</p> you're intending to be, go ahead, I honestly don't care.</strong>
+        </div>
+
+        <div>&nbsp;</div>
+
+        <script type="text/javascript">
+
+            function showArtist()
+            {
+                var x = document.getElementById("marauda");
+                if(x.style.display === "block")
+                {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+
+                }
+            }
+
+            document.addEventListener('play', function(e){
+                var audios = document.getElementsByTagName('audio');
+                for(var i = 0, len = audios.length; i < len;i++){
+                    if(audios[i] != e.target){
+                    audios[i].pause();
+                    }
+                }
+            }, true);
+
+        </script>
+
+    </body>
+</html>
